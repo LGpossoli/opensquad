@@ -1,0 +1,33 @@
+squad:
+  code: haiana-instagram-feed
+  name: Instagram Feed Haiana
+  description: Cria publicações de Instagram Feed para Dra. Haiana Bussolo com pesquisa, definição de ângulo, criação e revisão, sem publicar.
+  icon: "🩺"
+  agents:
+    - ./agents/rita-referencia.agent.md
+    - ./agents/sofia-sintese.agent.md
+    - ./agents/iris-instagram.agent.md
+    - ./agents/vera-veredicto.agent.md
+
+skills:
+  - web_search
+  - web_fetch
+
+data:
+  - pipeline/data/research-brief.md
+  - pipeline/data/domain-framework.md
+  - pipeline/data/quality-criteria.md
+  - pipeline/data/output-examples.md
+  - pipeline/data/anti-patterns.md
+  - pipeline/data/tone-of-voice.md
+  - pipeline/data/branding-notes.md
+
+pipeline:
+  steps:
+    - step-01-research-focus.md
+    - step-02-research-brief.md
+    - step-03-angle-strategy.md
+    - step-04-angle-selection.md
+    - step-05-create-feed.md
+    - step-06-review-content.md
+    - step-07-final-approval.md

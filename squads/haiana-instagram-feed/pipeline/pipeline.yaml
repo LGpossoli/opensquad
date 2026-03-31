@@ -1,0 +1,29 @@
+pipeline:
+  id: haiana-instagram-feed
+  name: Instagram Feed Haiana
+  checkpoints:
+    - step-01-research-focus
+    - step-04-angle-selection
+    - step-07-final-approval
+  steps:
+    - id: step-01-research-focus
+      file: step-01-research-focus.md
+      type: checkpoint
+    - id: step-02-research-brief
+      file: step-02-research-brief.md
+      agent: rita-referencia
+    - id: step-03-angle-strategy
+      file: step-03-angle-strategy.md
+      agent: sofia-sintese
+    - id: step-04-angle-selection
+      file: step-04-angle-selection.md
+      type: checkpoint
+    - id: step-05-create-feed
+      file: step-05-create-feed.md
+      agent: iris-instagram
+    - id: step-06-review-content
+      file: step-06-review-content.md
+      agent: vera-veredicto
+    - id: step-07-final-approval
+      file: step-07-final-approval.md
+      type: checkpoint

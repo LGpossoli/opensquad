@@ -1,0 +1,5 @@
+id,displayName,icon,path
+rita-referencia,Rita Referência,🔎,./agents/rita-referencia.agent.md
+sofia-sintese,Sofia Síntese,🧭,./agents/sofia-sintese.agent.md
+iris-instagram,Íris Instagram,📲,./agents/iris-instagram.agent.md
+vera-veredicto,Vera Veredicto,✅,./agents/vera-veredicto.agent.md
